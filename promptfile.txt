@@ -1,2 +1,2 @@
-yt-dlp -x --yes-playlist -P 'D:\Music - HDD\Music Repository\2025 Club' --audio-format mp3 'https://www.youtube.com/watch?v=OkYj93iDQyI&ab_channel=Junnie%E2%98%86%D0%B7'
+yt-dlp -x --yes-playlist -P 'D:\Music - HDD\Music Repository\2025 Club' --audio-format mp3 'https://www.youtube.com/watch?v=mMRddwYFW8A&ab_channel=Pop_Kpop'
 yt-dlp -x --yes-playlist -P 'D:\Music - HDD\Music Repository\2025 Club' --audio-format mp3 'https://www.youtube.com/watch?v=QzyeZ5vP3PI&ab_channel=LatinHype'
