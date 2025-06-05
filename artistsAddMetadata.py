@@ -9,9 +9,10 @@ def clean_title(title):
     title = re.sub(r"\[.*\]", "", title)
 
     # Remove "(official video)" (case-insensitive)
+    title = re.sub(r"\(HD.*\)", "", title, flags=re.IGNORECASE)
+    title = re.sub(r"\(Lyric.*\)", "", title, flags=re.IGNORECASE)
     title = re.sub(r"\(official .*\)", "", title, flags=re.IGNORECASE)
     title = re.sub(r"\(free .*\)", "", title, flags=re.IGNORECASE)
-    title = re.sub(r"\(lyric .*\)", "", title, flags=re.IGNORECASE)
 
     # Clean up any extra spaces, dashes
     title = re.sub(r"[-–—]\s*$", "", title).strip()
